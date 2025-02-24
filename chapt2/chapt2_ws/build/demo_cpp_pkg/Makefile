@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fishros/chapt2/chapt2_ws/src/demo_cpp_pkg
+CMAKE_SOURCE_DIR = /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg
+CMAKE_BINARY_DIR = /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/build/demo_cpp_pkg
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles /home/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/build/demo_cpp_pkg//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

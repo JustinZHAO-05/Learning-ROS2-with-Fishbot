@@ -98,13 +98,13 @@
 		{
 			"backtrace" : 9,
 			"isGenerated" : true,
-			"path" : "/home/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/demo_cpp_pkg_uninstall",
+			"path" : "/home/fishros/\u6587\u6863/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/demo_cpp_pkg_uninstall",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/demo_cpp_pkg_uninstall.rule",
+			"path" : "/home/fishros/\u6587\u6863/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/demo_cpp_pkg_uninstall.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

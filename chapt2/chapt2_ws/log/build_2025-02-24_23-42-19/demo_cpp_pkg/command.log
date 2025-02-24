@@ -1,0 +1,2 @@
+Invoking command in '/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j8 -l8
+Invoked command in '/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j8 -l8
