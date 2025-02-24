@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg/src/cpp_node.cpp" "CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o" "gcc" "CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o.d"
+  "/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp" "CMakeFiles/person_node.dir/src/person_node.cpp.o" "gcc" "CMakeFiles/person_node.dir/src/person_node.cpp.o.d"
   )
 
 # Targets to which this target links.

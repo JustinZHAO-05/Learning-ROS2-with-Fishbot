@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fishros/chapt2/demo_cpp_pkg
+CMAKE_SOURCE_DIR = /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fishros/chapt2/demo_cpp_pkg/build
+CMAKE_BINARY_DIR = /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg/build
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/fishros/chapt2/demo_cpp_pkg/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fishros/chapt2/demo_cpp_pkg /home/fishros/chapt2/demo_cpp_pkg /home/fishros/chapt2/demo_cpp_pkg/build /home/fishros/chapt2/demo_cpp_pkg/build /home/fishros/chapt2/demo_cpp_pkg/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg/build /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg/build /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
