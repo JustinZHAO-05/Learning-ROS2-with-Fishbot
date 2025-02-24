@@ -1,0 +1,4 @@
+Invoking command in '/home/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j8 -l8
+Invoked command in '/home/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j8 -l8
+Invoking command in '/home/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg
+Invoked command in '/home/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fishros/chapt2/chapt2_ws/build/demo_cpp_pkg

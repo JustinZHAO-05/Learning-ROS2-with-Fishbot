@@ -1,0 +1,28 @@
+[0.675s] Invoking command in '/home/fishros/chapt2/chapt2_ws/src/demo_python_pkg': AMENT_PREFIX_PATH=/home/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg PYTHONPATH=/home/fishros/chapt2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fishros/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/fishros/chapt2/chapt2_ws/build/demo_python_pkg/build install --record /home/fishros/chapt2/chapt2_ws/build/demo_python_pkg/install.log --single-version-externally-managed install_data
+[0.821s] /home/fishros/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.821s]   warnings.warn(msg)
+[0.885s] running egg_info
+[0.896s] writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[0.897s] writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[0.897s] writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[0.898s] writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[0.898s] writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[0.924s] reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.924s] adding license file 'LICENSE'
+[0.925s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.926s] running build
+[0.926s] running build_py
+[0.926s] copying demo_python_pkg/__init__.py -> /home/fishros/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.926s] copying demo_python_pkg/python_node.py -> /home/fishros/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.927s] running install
+[0.932s] running install_lib
+[0.950s] running install_data
+[0.950s] copying resource/demo_python_pkg -> /home/fishros/chapt2/chapt2_ws/install/demo_python_pkg/share/ament_index/resource_index/packages
+[0.950s] copying package.xml -> /home/fishros/chapt2/chapt2_ws/install/demo_python_pkg/share/demo_python_pkg
+[0.950s] running install_egg_info
+[0.963s] removing '/home/fishros/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.963s] Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/fishros/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info
+[0.964s] running install_scripts
+[1.070s] Installing python_node script to /home/fishros/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[1.070s] writing list of installed files to '/home/fishros/chapt2/chapt2_ws/build/demo_python_pkg/install.log'
+[1.095s] Invoked command in '/home/fishros/chapt2/chapt2_ws/src/demo_python_pkg' returned '0': AMENT_PREFIX_PATH=/home/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fishros/chapt2/chapt2_ws/install/demo_cpp_pkg PYTHONPATH=/home/fishros/chapt2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fishros/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/fishros/chapt2/chapt2_ws/build/demo_python_pkg/build install --record /home/fishros/chapt2/chapt2_ws/build/demo_python_pkg/install.log --single-version-externally-managed install_data
