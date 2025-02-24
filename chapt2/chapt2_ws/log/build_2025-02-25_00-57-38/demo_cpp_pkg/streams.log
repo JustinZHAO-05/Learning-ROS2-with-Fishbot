@@ -1,0 +1,33 @@
+[0.024s] Invoking command in '/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j8 -l8
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.104s] [ 50%] Built target cpp_node
+[0.111s] [ 75%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[2.474s] [01m[K/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.474s] [01m[K/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:31:13:[m[K [01;35m[Kwarning: [m[Kstatement is a reference, not call, to function ‘[01m[Krclcpp::shutdown[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[2.474s]    31 |     [01;35m[Krclcpp::shutdown[m[K;
+[2.475s]       |     [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[2.475s] [01m[K/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:31:13:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.066s] [100%] [32m[1mLinking CXX executable person_node[0m
+[3.199s] [100%] Built target person_node
+[3.214s] Invoked command in '/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j8 -l8
+[3.228s] Invoking command in '/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/build/demo_cpp_pkg
+[3.236s] -- Install configuration: ""
+[3.236s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[3.237s] -- Installing: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[3.237s] -- Set runtime path of "/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node" to ""
+[3.238s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[3.238s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[3.238s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[3.239s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[3.239s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[3.239s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[3.239s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[3.239s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[3.239s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[3.239s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[3.239s] -- Installing: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[3.239s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[3.240s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[3.240s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[3.240s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[3.243s] Invoked command in '/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/build/demo_cpp_pkg

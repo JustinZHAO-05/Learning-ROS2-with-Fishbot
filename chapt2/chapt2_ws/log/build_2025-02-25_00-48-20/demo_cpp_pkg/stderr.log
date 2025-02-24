@@ -1,0 +1,9 @@
+[01m[K/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:[m[K In member function ‘[01m[Kvoid PersonNode::eat(const string&)[m[K’:
+[01m[K/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:19:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfood_name[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   19 |     void eat([01;35m[Kconst std::string &food_name[m[K)
+      |              [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:31:13:[m[K [01;35m[Kwarning: [m[Kstatement is a reference, not call, to function ‘[01m[Krclcpp::shutdown[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+   31 |     [01;35m[Krclcpp::shutdown[m[K;
+      |     [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:31:13:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
