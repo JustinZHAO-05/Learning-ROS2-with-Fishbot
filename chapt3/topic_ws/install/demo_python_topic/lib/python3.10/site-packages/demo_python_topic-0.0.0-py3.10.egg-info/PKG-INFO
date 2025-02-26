@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: demo_python_topic
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: fishros
+Maintainer-email: justinzhao050322@gmail.com
+License: Apache-2.0
+License-File: LICENSE
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

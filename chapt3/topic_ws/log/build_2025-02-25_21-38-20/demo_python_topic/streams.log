@@ -1,0 +1,36 @@
+[1.202s] Invoking command in '/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/src/demo_python_topic': PYTHONPATH=/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_python_topic/build install --record /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data
+[1.425s] /home/fishros/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[1.426s]   warnings.warn(msg)
+[1.548s] running egg_info
+[1.566s] creating ../../build/demo_python_topic/demo_python_topic.egg-info
+[1.566s] writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO
+[1.567s] writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt
+[1.567s] writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt
+[1.567s] writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt
+[1.567s] writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt
+[1.567s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[1.613s] reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[1.614s] adding license file 'LICENSE'
+[1.615s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[1.616s] running build
+[1.616s] running build_py
+[1.616s] creating /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[1.616s] copying demo_python_topic/__init__.py -> /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[1.616s] copying demo_python_topic/novel_pub_node.py -> /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[1.617s] running install
+[1.627s] running install_lib
+[1.650s] creating /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[1.650s] copying /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic/__init__.py -> /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[1.650s] copying /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic/novel_pub_node.py -> /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[1.651s] byte-compiling /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/__init__.py to __init__.cpython-310.pyc
+[1.651s] byte-compiling /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_pub_node.py to novel_pub_node.cpython-310.pyc
+[1.652s] running install_data
+[1.652s] creating /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_python_topic/share/ament_index/resource_index/packages
+[1.652s] copying resource/demo_python_topic -> /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_python_topic/share/ament_index/resource_index/packages
+[1.652s] copying package.xml -> /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_python_topic/share/demo_python_topic
+[1.652s] running install_egg_info
+[1.673s] Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info
+[1.674s] running install_scripts
+[1.866s] Installing novel_pub_node script to /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_python_topic/lib/demo_python_topic
+[1.866s] writing list of installed files to '/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_python_topic/install.log'
+[1.909s] Invoked command in '/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/src/demo_python_topic' returned '0': PYTHONPATH=/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_python_topic/build install --record /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data
