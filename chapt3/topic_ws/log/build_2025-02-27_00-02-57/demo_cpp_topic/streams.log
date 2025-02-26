@@ -1,0 +1,26 @@
+[0.018s] Invoking command in '/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_cpp_topic -- -j8 -l8
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target turtle_circle[0m
+[0.115s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[5.715s] [100%] [32m[1mLinking CXX executable turtle_circle[0m
+[6.059s] [100%] Built target turtle_circle
+[6.079s] Invoked command in '/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_cpp_topic -- -j8 -l8
+[6.095s] Invoking command in '/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_cpp_topic
+[6.104s] -- Install configuration: ""
+[6.104s] -- Installing: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[6.106s] -- Set runtime path of "/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle" to ""
+[6.106s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[6.106s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[6.106s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[6.107s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[6.107s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[6.107s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[6.107s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[6.107s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[6.107s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[6.107s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[6.107s] -- Installing: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[6.108s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[6.108s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[6.108s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[6.108s] -- Up-to-date: /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[6.110s] Invoked command in '/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/fishros/文档/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_cpp_topic

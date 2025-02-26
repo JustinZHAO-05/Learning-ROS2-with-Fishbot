@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f144a575097fa70275e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "demo_cpp_topic",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_cpp_topic_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_cpp_topic_uninstall-1c9fe321f7be1c9b3b10.json",
+					"name" : "demo_cpp_topic_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_circle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_circle-4bbda03dbed20f1aa9bf.json",
+					"name" : "turtle_circle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control-6cb41494e4595e772e6f.json",
+					"name" : "turtle_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d9996704f5c5b7049a21.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fishros/\u6587\u6863/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/build/demo_cpp_topic",
+		"source" : "/home/fishros/\u6587\u6863/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_ws/src/demo_cpp_topic"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
