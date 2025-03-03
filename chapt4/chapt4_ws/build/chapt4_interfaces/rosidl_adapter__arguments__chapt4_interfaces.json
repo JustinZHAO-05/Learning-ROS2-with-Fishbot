@@ -1,0 +1,6 @@
+{
+  "package_name": "chapt4_interfaces",
+  "non_idl_tuples": [
+    "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/src/chapt4_interfaces:srv/FaceDetector.srv"
+  ]
+}
