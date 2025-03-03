@@ -1,0 +1,230 @@
+[0.016s] Invoking command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces
+[0.106s] -- The C compiler identification is GNU 11.4.0
+[0.193s] -- The CXX compiler identification is GNU 11.4.0
+[0.204s] -- Detecting C compiler ABI info
+[0.305s] -- Detecting C compiler ABI info - done
+[0.320s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.320s] -- Detecting C compile features
+[0.321s] -- Detecting C compile features - done
+[0.326s] -- Detecting CXX compiler ABI info
+[0.452s] -- Detecting CXX compiler ABI info - done
+[0.469s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.470s] -- Detecting CXX compile features
+[0.471s] -- Detecting CXX compile features - done
+[0.475s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.016s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.150s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.201s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.207s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.219s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.237s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.261s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.284s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.649s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.080s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.276s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.283s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.323s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.324s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.324s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.324s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.350s] -- Found PythonExtra: .so  
+[2.406s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.430s] -- Added test 'lint_cmake' to check CMake code style
+[2.431s] -- Added test 'xmllint' to check XML markup files
+[2.435s] -- Configuring done
+[2.485s] -- Generating done
+[2.501s] -- Build files have been written to: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/build/status_interfaces
+[2.513s] Invoked command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces
+[2.517s] Invoking command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/build/status_interfaces -- -j8 -l8
+[2.569s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.582s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.597s] [  6%] Built target ament_cmake_python_copy_status_interfaces
+[2.885s] running egg_info
+[2.904s] creating status_interfaces.egg-info
+[2.904s] writing status_interfaces.egg-info/PKG-INFO
+[2.904s] writing dependency_links to status_interfaces.egg-info/dependency_links.txt
+[2.905s] writing top-level names to status_interfaces.egg-info/top_level.txt
+[2.905s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[2.962s] reading manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[2.964s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[3.029s] [  6%] Built target ament_cmake_python_build_status_interfaces_egg
+[3.141s] [  6%] Built target status_interfaces__cpp
+[3.155s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.155s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.155s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.184s] [ 19%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c.o[0m
+[3.246s] [ 22%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_generator_c.so[0m
+[3.302s] [ 22%] Built target status_interfaces__rosidl_generator_c
+[3.315s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.316s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.316s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.692s] [ 35%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[3.747s] [ 38%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp.o[0m
+[3.764s] [ 41%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o[0m
+[3.853s] [ 45%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[3.889s] [ 48%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/status_interfaces/msg/detail/system_status__type_support_c.cpp.o[0m
+[3.892s] [ 51%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_c.so[0m
+[3.905s] [ 54%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/status_interfaces/msg/detail/system_status__type_support.c.o[0m
+[3.955s] [ 58%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.955s] [ 58%] Built target status_interfaces__rosidl_typesupport_c
+[3.996s] [ 61%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_cpp.so[0m
+[3.998s] [ 61%] Built target status_interfaces__rosidl_typesupport_introspection_c
+[4.060s] [ 61%] Built target status_interfaces__rosidl_typesupport_cpp
+[4.189s] [ 64%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.211s] [ 67%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.287s] [ 70%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.315s] [ 70%] Built target status_interfaces__rosidl_typesupport_introspection_cpp
+[4.390s] [ 70%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.433s] [ 70%] Built target status_interfaces__rosidl_typesupport_fastrtps_c
+[4.462s] [ 70%] Built target status_interfaces
+[4.490s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.286s] [ 74%] Built target status_interfaces__py
+[5.315s] [ 77%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_py.dir/rosidl_generator_py/status_interfaces/msg/_system_status_s.c.o[0m
+[5.443s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/libstatus_interfaces__rosidl_generator_py.so[0m
+[5.508s] [ 80%] Built target status_interfaces__rosidl_generator_py
+[5.533s] [ 90%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.534s] [ 90%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.534s] [ 90%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.657s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.657s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.661s] [100%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.716s] [100%] Built target status_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.721s] [100%] Built target status_interfaces__rosidl_typesupport_c__pyext
+[5.723s] [100%] Built target status_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.746s] Invoked command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/build/status_interfaces -- -j8 -l8
+[5.765s] Invoking command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/build/status_interfaces
+[5.774s] -- Install configuration: ""
+[5.775s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces
+[5.775s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces
+[5.775s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[5.775s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.776s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h
+[5.776s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[5.776s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h
+[5.776s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h
+[5.776s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h
+[5.776s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.c
+[5.777s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/environment/library_path.sh
+[5.777s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/environment/library_path.dsv
+[5.777s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so
+[5.778s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so" to ""
+[5.778s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces
+[5.778s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[5.778s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.778s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[5.779s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+[5.779s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.780s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.780s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces
+[5.780s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[5.780s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp
+[5.780s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.780s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[5.780s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp
+[5.780s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp
+[5.781s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp
+[5.781s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp
+[5.781s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces
+[5.781s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[5.781s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.781s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[5.781s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps
+[5.781s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.781s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.782s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.782s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces
+[5.782s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[5.782s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.783s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[5.783s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c
+[5.783s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+[5.783s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so
+[5.784s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.784s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so
+[5.784s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so" to ""
+[5.785s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces
+[5.785s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[5.785s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[5.785s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.cpp
+[5.786s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+[5.786s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.786s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.786s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so
+[5.786s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.786s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh
+[5.787s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv
+[5.787s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info
+[5.787s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.787s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.788s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.788s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.788s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces
+[5.788s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py
+[5.788s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.789s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.789s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.789s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg
+[5.789s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py
+[5.789s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py
+[5.790s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status_s.c
+[5.790s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.790s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.790s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c
+[5.790s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/libstatus_interfaces__rosidl_generator_py.so
+[5.832s] Listing '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces'...
+[5.833s] Compiling '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py'...
+[5.833s] Listing '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg'...
+[5.833s] Compiling '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py'...
+[5.833s] Compiling '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py'...
+[5.840s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.841s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.841s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.841s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.842s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.842s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.842s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so
+[5.843s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so" to ""
+[5.843s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl
+[5.844s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg
+[5.844s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces
+[5.844s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces
+[5.844s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh
+[5.845s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv
+[5.845s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/environment/path.sh
+[5.845s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/environment/path.dsv
+[5.845s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/local_setup.bash
+[5.845s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/local_setup.sh
+[5.846s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/local_setup.zsh
+[5.846s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/local_setup.dsv
+[5.846s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/package.dsv
+[5.846s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces
+[5.847s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake
+[5.847s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.847s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.847s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.848s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake
+[5.848s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.848s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.848s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.849s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.849s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake
+[5.849s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.849s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.850s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.850s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake
+[5.851s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.856s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake
+[5.856s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.856s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.857s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.857s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.857s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.857s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.857s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.857s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.857s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake
+[5.858s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake
+[5.858s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/package.xml
+[5.860s] Invoked command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/build/status_interfaces

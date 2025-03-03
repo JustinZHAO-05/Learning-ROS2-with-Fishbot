@@ -1,0 +1,50 @@
+[0.017s] Invoking command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/build/status_display': AMENT_PREFIX_PATH=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_display
+[0.128s] -- The C compiler identification is GNU 11.4.0
+[0.214s] -- The CXX compiler identification is GNU 11.4.0
+[0.225s] -- Detecting C compiler ABI info
+[0.336s] -- Detecting C compiler ABI info - done
+[0.351s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.352s] -- Detecting C compile features
+[0.352s] -- Detecting C compile features - done
+[0.359s] -- Detecting CXX compiler ABI info
+[0.494s] -- Detecting CXX compiler ABI info - done
+[0.509s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.509s] -- Detecting CXX compile features
+[0.509s] -- Detecting CXX compile features - done
+[0.513s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.084s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.218s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.290s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.296s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.307s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.325s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.346s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.454s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.461s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.644s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.691s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.757s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.782s] -- Looking for pthread.h
+[1.891s] -- Looking for pthread.h - found
+[1.892s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.014s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.015s] -- Found Threads: TRUE  
+[2.154s] -- Found status_interfaces: 0.0.0 (/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake)
+[2.181s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.287s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.288s] -- Configured cppcheck include dirs: 
+[2.288s] -- Configured cppcheck exclude dirs and/or files: 
+[2.288s] -- Added test 'lint_cmake' to check CMake code style
+[2.290s] -- Added test 'uncrustify' to check C / C++ code style
+[2.290s] -- Configured uncrustify additional arguments: 
+[2.291s] -- Added test 'xmllint' to check XML markup files
+[2.297s] -- Configuring done
+[2.299s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[2.299s]   Target "sys_status_display" links to target "Qt5::Widgets" but the target
+[2.300s]   was not found.  Perhaps a find_package() call is missing for an IMPORTED
+[2.300s]   target, or an ALIAS target is missing?
+[2.300s] 
+[2.300s] [0m
+[2.311s] -- Generating done
+[2.312s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.329s] Invoked command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/build/status_display' returned '1': AMENT_PREFIX_PATH=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt3/topic_practice_ws/src/install/status_display
