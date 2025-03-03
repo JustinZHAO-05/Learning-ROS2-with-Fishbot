@@ -10,9 +10,12 @@ setup.py
 ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
 ../../build/demo_python_service/demo_python_service.egg-info/zip-safe
 demo_python_service/__init__.py
+demo_python_service/face_detect_client_node.py
+demo_python_service/face_detect_node.py
 demo_python_service/learn_face_detect.py
 resource/default.jpg
 resource/demo_python_service
+resource/test1.jpg
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
