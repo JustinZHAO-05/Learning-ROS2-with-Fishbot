@@ -1,0 +1,29 @@
+[1.012s] Invoking command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/src/demo_python_service': PYTHONPATH=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[1.229s] /home/fishros/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[1.229s]   warnings.warn(msg)
+[1.357s] running egg_info
+[1.378s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[1.379s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[1.379s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[1.380s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[1.380s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[1.424s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.425s] adding license file 'LICENSE'
+[1.427s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.427s] running build
+[1.428s] running build_py
+[1.428s] copying demo_python_service/__init__.py -> /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[1.428s] copying demo_python_service/learn_face_detect.py -> /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[1.429s] running install
+[1.440s] running install_lib
+[1.463s] running install_data
+[1.464s] copying resource/demo_python_service -> /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/share/ament_index/resource_index/packages
+[1.464s] copying package.xml -> /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service
+[1.464s] copying resource/default.jpg -> /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/resource
+[1.465s] running install_egg_info
+[1.486s] removing '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+[1.486s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[1.487s] running install_scripts
+[1.653s] Installing learn_face_detect script to /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[1.653s] writing list of installed files to '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/install.log'
+[1.718s] Invoked command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/src/demo_python_service' returned '0': PYTHONPATH=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
