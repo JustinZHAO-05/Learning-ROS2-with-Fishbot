@@ -1,0 +1,34 @@
+[1.144s] Invoking command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/src/demo_python_service': CMAKE_PREFIX_PATH=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces:/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service PYTHONPATH=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[1.380s] /home/fishros/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[1.381s]   warnings.warn(msg)
+[1.518s] running egg_info
+[1.540s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[1.541s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[1.542s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[1.542s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[1.542s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[1.592s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.593s] adding license file 'LICENSE'
+[1.595s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.596s] running build
+[1.596s] running build_py
+[1.596s] copying demo_python_service/face_detect_node.py -> /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[1.596s] copying demo_python_service/__init__.py -> /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[1.596s] copying demo_python_service/face_detect_client_node.py -> /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[1.597s] copying demo_python_service/learn_face_detect.py -> /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[1.597s] running install
+[1.607s] running install_lib
+[1.627s] running install_data
+[1.628s] copying resource/demo_python_service -> /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/share/ament_index/resource_index/packages
+[1.628s] copying package.xml -> /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service
+[1.628s] copying resource/default.jpg -> /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/resource
+[1.629s] copying resource/test1.jpg -> /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/resource
+[1.630s] running install_egg_info
+[1.657s] removing '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+[1.657s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[1.659s] running install_scripts
+[1.839s] Installing face_detect_client_node script to /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[1.840s] Installing face_detect_node script to /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[1.840s] Installing learn_face_detect script to /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[1.840s] writing list of installed files to '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/install.log'
+[1.913s] Invoked command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/src/demo_python_service' returned '0': CMAKE_PREFIX_PATH=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces:/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service PYTHONPATH=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data

@@ -1,0 +1,257 @@
+[0.023s] Invoking command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/chapt4_interfaces -- -j8 -l8
+[0.133s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.371s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.376s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.383s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.472s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.551s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.187s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.624s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.187s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.225s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.258s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.258s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.258s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.343s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.384s] -- Added test 'lint_cmake' to check CMake code style
+[2.387s] -- Added test 'xmllint' to check XML markup files
+[2.395s] -- Configuring done
+[2.490s] -- Generating done
+[2.521s] -- Build files have been written to: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/chapt4_interfaces
+[2.560s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.578s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.599s] [  5%] Built target ament_cmake_python_copy_chapt4_interfaces
+[2.938s] running egg_info
+[2.958s] writing chapt4_interfaces.egg-info/PKG-INFO
+[2.958s] writing dependency_links to chapt4_interfaces.egg-info/dependency_links.txt
+[2.959s] writing top-level names to chapt4_interfaces.egg-info/top_level.txt
+[3.021s] reading manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[3.023s] writing manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[3.083s] [  5%] Built target ament_cmake_python_build_chapt4_interfaces_egg
+[3.389s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_generator_c[0m
+[3.439s] [  7%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c.o[0m
+[3.439s] [  7%] Built target chapt4_interfaces__cpp
+[3.439s] [ 10%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__functions.c.o[0m
+[3.453s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.453s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.453s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.577s] [ 20%] [32m[1mLinking C shared library libchapt4_interfaces__rosidl_generator_c.so[0m
+[3.658s] [ 20%] Built target chapt4_interfaces__rosidl_generator_c
+[3.675s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.675s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.675s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.135s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_typesupport_cpp[0m
+[4.166s] [ 30%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chapt4_interfaces/srv/face_detector__type_support.cpp.o[0m
+[4.166s] [ 33%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chapt4_interfaces/srv/patrol__type_support.cpp.o[0m
+[4.214s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_typesupport_introspection_cpp[0m
+[4.242s] [ 35%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chapt4_interfaces/srv/detail/face_detector__type_support.cpp.o[0m
+[4.246s] [ 38%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chapt4_interfaces/srv/detail/patrol__type_support.cpp.o[0m
+[4.260s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[4.301s] [ 41%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chapt4_interfaces/srv/detail/dds_fastrtps/face_detector__type_support.cpp.o[0m
+[4.345s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_typesupport_c[0m
+[4.375s] [ 43%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chapt4_interfaces/srv/face_detector__type_support.cpp.o[0m
+[4.449s] [ 46%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chapt4_interfaces/srv/patrol__type_support.cpp.o[0m
+[4.489s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_typesupport_introspection_c[0m
+[4.513s] [ 48%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.o[0m
+[4.527s] [ 51%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_c.so[0m
+[4.550s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_typesupport_fastrtps_c[0m
+[4.583s] [ 53%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chapt4_interfaces/srv/detail/face_detector__type_support_c.cpp.o[0m
+[4.589s] [ 56%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o[0m
+[4.613s] [ 56%] Built target chapt4_interfaces__rosidl_typesupport_c
+[4.627s] [ 58%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chapt4_interfaces/srv/detail/patrol__type_support_c.cpp.o[0m
+[4.647s] [ 61%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chapt4_interfaces/srv/detail/dds_fastrtps/patrol__type_support.cpp.o[0m
+[4.650s] [ 64%] [32m[1mLinking C shared library libchapt4_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.686s] [ 66%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_cpp.so[0m
+[4.701s] [ 66%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c
+[4.833s] [ 66%] Built target chapt4_interfaces__rosidl_typesupport_cpp
+[5.020s] [ 69%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.239s] [ 69%] Built target chapt4_interfaces__rosidl_typesupport_introspection_cpp
+[5.260s] [ 71%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.348s] [ 74%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.446s] [ 74%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c
+[5.493s] [ 74%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.528s] [ 74%] Built target chapt4_interfaces
+[5.563s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.868s] [ 76%] Built target chapt4_interfaces__py
+[6.884s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_generator_py[0m
+[6.909s] [ 82%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chapt4_interfaces/srv/_face_detector_s.c.o[0m
+[6.909s] [ 82%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chapt4_interfaces/srv/_patrol_s.c.o[0m
+[7.158s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/libchapt4_interfaces__rosidl_generator_py.so[0m
+[7.232s] [ 84%] Built target chapt4_interfaces__rosidl_generator_py
+[7.252s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_typesupport_c__pyext[0m
+[7.252s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[7.252s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[7.271s] [ 92%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.271s] [ 92%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.271s] [ 92%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.428s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.429s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.431s] [100%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.496s] [100%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.497s] [100%] Built target chapt4_interfaces__rosidl_typesupport_c__pyext
+[7.498s] [100%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.517s] Invoked command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/chapt4_interfaces -- -j8 -l8
+[7.538s] Invoking command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/chapt4_interfaces
+[7.552s] -- Install configuration: ""
+[7.552s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/rosidl_interfaces/chapt4_interfaces
+[7.552s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[7.552s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[7.552s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.h
+[7.553s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/patrol.h
+[7.553s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[7.553s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.h
+[7.553s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__struct.h
+[7.553s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__functions.c
+[7.554s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.h
+[7.554s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__type_support.h
+[7.554s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.c
+[7.554s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.h
+[7.554s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__functions.h
+[7.555s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[7.555s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.555s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.sh
+[7.555s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.dsv
+[7.558s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so
+[7.558s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so" to ""
+[7.559s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[7.559s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[7.559s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[7.559s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_fastrtps_c.h
+[7.559s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h
+[7.559s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[7.560s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.561s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.562s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.562s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[7.562s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[7.562s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[7.563s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__type_support.c
+[7.563s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.c
+[7.563s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_c.h
+[7.563s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+[7.563s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[7.564s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.565s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so
+[7.566s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.567s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so
+[7.567s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so" to ""
+[7.567s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[7.567s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[7.568s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/patrol.hpp
+[7.568s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[7.568s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.hpp
+[7.568s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__traits.hpp
+[7.568s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__struct.hpp
+[7.568s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__type_support.hpp
+[7.569s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__builder.hpp
+[7.569s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__traits.hpp
+[7.569s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__builder.hpp
+[7.569s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.hpp
+[7.569s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.hpp
+[7.570s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[7.570s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.570s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[7.570s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[7.570s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[7.570s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_fastrtps_cpp.hpp
+[7.570s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp
+[7.571s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/dds_fastrtps
+[7.571s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[7.571s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.572s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.573s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.573s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[7.574s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[7.574s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[7.574s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.cpp
+[7.574s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_cpp.hpp
+[7.574s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp
+[7.574s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__type_support.cpp
+[7.575s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.576s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.577s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so
+[7.578s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.578s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.sh
+[7.578s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.dsv
+[7.578s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info
+[7.578s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.579s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[7.579s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.579s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[7.580s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces
+[7.580s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c
+[7.580s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.581s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv
+[7.581s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_patrol_s.c
+[7.581s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector.py
+[7.581s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/__init__.py
+[7.581s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_patrol.py
+[7.582s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector_s.c
+[7.582s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.582s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/__init__.py
+[7.582s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/libchapt4_interfaces__rosidl_generator_py.so
+[7.583s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.583s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.583s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.638s] Listing '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces'...
+[7.638s] Compiling '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/__init__.py'...
+[7.638s] Listing '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv'...
+[7.638s] Compiling '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/__init__.py'...
+[7.638s] Compiling '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector.py'...
+[7.639s] Compiling '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_patrol.py'...
+[7.646s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.647s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.647s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.647s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.648s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.648s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.650s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_py.so
+[7.651s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_py.so" to ""
+[7.651s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.idl
+[7.651s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Patrol.idl
+[7.652s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.srv
+[7.652s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector_Request.msg
+[7.652s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector_Response.msg
+[7.653s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Patrol.srv
+[7.653s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Patrol_Request.msg
+[7.653s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Patrol_Response.msg
+[7.653s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/package_run_dependencies/chapt4_interfaces
+[7.654s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/parent_prefix_path/chapt4_interfaces
+[7.654s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.sh
+[7.654s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.dsv
+[7.654s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.sh
+[7.655s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.dsv
+[7.655s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.bash
+[7.655s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.sh
+[7.655s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.zsh
+[7.659s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.dsv
+[7.659s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.dsv
+[7.659s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/packages/chapt4_interfaces
+[7.660s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport.cmake
+[7.661s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.661s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.661s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.662s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.662s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.662s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport.cmake
+[7.662s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.663s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cppExport.cmake
+[7.663s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.663s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.664s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.664s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.665s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport.cmake
+[7.665s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.665s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport.cmake
+[7.666s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.666s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.666s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.666s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.667s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.667s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.667s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.667s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.668s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig.cmake
+[7.668s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig-version.cmake
+[7.668s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.xml
+[7.672s] Invoked command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/chapt4_interfaces

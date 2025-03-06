@@ -1,0 +1,51 @@
+[0.023s] Invoking command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces:/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service:/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_cpp_service -- -j8 -l8
+[0.066s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.264s] -- Found chapt4_interfaces: 0.0.0 (/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[0.310s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.314s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.326s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.342s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.364s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.515s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.559s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.560s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.731s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.804s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.880s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.988s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.989s] -- Configured cppcheck include dirs: 
+[0.989s] -- Configured cppcheck exclude dirs and/or files: 
+[0.990s] -- Added test 'lint_cmake' to check CMake code style
+[0.991s] -- Added test 'uncrustify' to check C / C++ code style
+[0.992s] -- Configured uncrustify additional arguments: 
+[0.992s] -- Added test 'xmllint' to check XML markup files
+[0.993s] -- Configuring done
+[1.031s] -- Generating done
+[1.042s] -- Build files have been written to: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_cpp_service
+[1.087s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[1.106s] [ 25%] [32mBuilding CXX object CMakeFiles/patrol_client.dir/src/patrol_client.cpp.o[0m
+[1.121s] [ 75%] Built target turtle_control
+[6.704s] [100%] [32m[1mLinking CXX executable patrol_client[0m
+[7.067s] [100%] Built target patrol_client
+[7.086s] Invoked command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces:/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service:/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_cpp_service -- -j8 -l8
+[7.088s] Invoking command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces:/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service:/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_cpp_service
+[7.099s] -- Install configuration: ""
+[7.099s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/turtle_control
+[7.099s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/patrol_client
+[7.104s] -- Set runtime path of "/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/patrol_client" to ""
+[7.104s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service
+[7.104s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service
+[7.105s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh
+[7.105s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.dsv
+[7.105s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/path.sh
+[7.105s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/path.dsv
+[7.105s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.bash
+[7.105s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.sh
+[7.105s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.zsh
+[7.105s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.dsv
+[7.105s] -- Installing: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.dsv
+[7.105s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/packages/demo_cpp_service
+[7.105s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig.cmake
+[7.106s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig-version.cmake
+[7.106s] -- Up-to-date: /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.xml
+[7.109s] Invoked command in '/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/chapt4_interfaces:/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_cpp_service:/home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/fishros/document/GitHub/Learning-ROS2-with-Fishbot/chapt4/chapt4_ws/build/demo_cpp_service
